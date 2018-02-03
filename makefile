@@ -26,7 +26,7 @@ FLAGS += -O2    # speed/size optimizations
 #FLAGS += -Os    # size optimizations--may help speed by reducing cache misses
 FLAGS += -Wall  # enable all warnings
 
-TOOLS_DIR   = /home/wade/cpp/ws_tools
+TOOLS_DIR   = /home/wade/dev/ws_tools
 CURRENT_DIR = $(shell /bin/pwd)
 SIFT_DIR    = $(CURRENT_DIR)/sift
 
