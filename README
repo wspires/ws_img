@@ -1,7 +1,32 @@
-# ws_img
-Library for reading, writing, and processing pnm (PBM, PGM, and PPM) and JPEG images. Includes functions for linear algebra and computer vision.
+###############################################################################
+# File:   README
+# Author: Wade Spires
+# Date:   2005/08/04
+# Description: Documentation for using class Image
+# Availability of a UNIX or GNU/Linux system is assumed.
+###############################################################################
 
-Availability of a UNIX or GNU/Linux system is assumed.
+First, (g)unzip and extract the file Image.tar.gz:
+	Type 'tar xzf Image.tar.gz' in Linux;
+	or 'gunzip Image.tar.gz; tar xf Image.tar;' if on an older UNIX system.
+
+The following files should be extracted:
+	README
+	go
+	Image.cpp
+	Image.hpp
+	Image_Coordinate.hpp
+	Image_Window.hpp
+	Matrix.cpp
+	Matrix.hpp
+	Vector.hpp
+	Linear_Algebra.hpp
+	Linear_Algebra.cpp
+	makefile
+	example/example.cpp
+	example/makefile
+	Doxyfile
+
 Here is a brief description for each of these files:
 	README -- This file
 	go -- Compiles and runs program

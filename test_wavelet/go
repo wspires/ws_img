@@ -1,0 +1,16 @@
+#! /bin/sh
+com=test_wavelet
+
+arg1=''
+arg2=''
+
+# remake image library
+pushd ../
+make lib
+
+popd
+make clean
+make
+
+$com $arg1 $arg2
+#gdb --arg $com $arg1 $arg2

@@ -1,0 +1,24 @@
+#! /bin/sh
+com=kmeans
+
+in_img='images/train/face/24x24/west'
+in_img='images/train/face/24x24/'
+out_img='out'
+k=10
+
+pushd ..
+make
+popd
+
+make clean
+make
+
+# full command to perform
+full_com="$com -i $in_img -o $out_img -k $k"
+echo $full_com
+
+# run command (either by itself, in a debugger, or in valgrind)
+$full_com
+#gdb --arg $full_com
+#valgrind --leak-check=full $full_com
+#valgrind --leak-check=full --show-reachable=yes -v $full_com

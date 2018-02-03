@@ -1,0 +1,16 @@
+#! /bin/sh
+com=example
+in_img='catbagel.pgm'
+in_img='in.pgm'
+out_img='out.pgm'
+
+pushd ..
+make lib
+popd
+
+make clean
+make
+
+$com $in_img $out_img
+#gdb --arg $com $in_img $out_img
+#kuickshow $out_img

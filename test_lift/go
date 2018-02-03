@@ -1,0 +1,35 @@
+#! /bin/sh
+com=test_lift
+
+# number of dual and real vanishing moments; number of transform levels
+N='4'
+N_tilde='4'
+num_levels='5'
+
+dir_name="images/train/face/92x112"
+dir_name="images/train/face/16x16"
+dir_name="images/schneid_img_2/original"
+dir_name="images/schneid_img_2/56x48"
+dir_name="in.pgm"
+dir_name="images/cpd.pgm"
+
+# sample images from each set
+dir_name="experiments/trees/102_0237.pgm"
+dir_name="experiments/signs/120_2084.pgm"
+dir_name="experiments/office/162_6256.pgm"
+
+# experiments for each image type
+dir_name="experiments/office"
+dir_name="experiments/signs"
+dir_name="experiments/trees"
+
+dir_name="images/Germany.pgm"
+
+# remake image library and this program
+make -C ..
+make
+
+$com $N $N_tilde $num_levels $dir_name
+#valgrind $com $N $N_tilde $num_levels $dir_name
+#gdb --arg $com $N $N_tilde $num_levels $dir_name
+#kuickshow $out_img

@@ -1,0 +1,16 @@
+#! /bin/sh
+com='./test_matrix'
+arg1=''
+arg2=''
+
+pushd ..
+make
+popd
+
+make clean
+make
+
+$com $arg1 $arg2
+#valgrind --leak-check=full -v $com 
+#valgrind --leak-check=full --show-reachable=yes -v $com 
+#gdb --arg $com $arg1 $arg2

@@ -1,0 +1,13 @@
+#! /bin/sh
+com=test_sift
+
+img_dir='in_img.jpg'
+
+out_dir='out/'
+
+verbose='-v'
+verbose=''
+
+make
+$com -i $img_dir -o $out_dir $verbose
+#gdb --arg $com -i $img_dir -o $out_dir $verbose

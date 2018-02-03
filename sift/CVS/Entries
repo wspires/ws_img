@@ -1,0 +1,17 @@
+/Doxyfile/1.1/Tue Sep 12 23:39:57 2006/-kk/
+/Keypoint.cpp/1.3/Sun Oct 15 02:16:15 2006/-kk/
+/Keypoint.hpp/1.3/Sun Oct 15 02:16:15 2006/-kk/
+/Scale_Space.cpp/1.3/Sun Oct 15 02:16:15 2006/-kk/
+/Scale_Space.hpp/1.4/Sun Oct 15 02:16:15 2006/-kk/
+/Sift.cpp/1.3/Sun Oct 15 02:16:15 2006/-kk/
+/Sift.hpp/1.3/Sun Oct 15 02:16:15 2006/-kk/
+/extrema_detection.cpp/1.3/Sun Oct 15 02:16:15 2006/-kk/
+/extrema_detection.hpp/1.4/Sun Oct 15 02:16:15 2006/-kk/
+/keypoint_descriptor.cpp/1.3/Sun Oct 15 02:16:15 2006/-kk/
+/keypoint_descriptor.hpp/1.3/Sun Oct 15 02:16:15 2006/-kk/
+/keypoint_localization.cpp/1.3/Sun Oct 15 02:16:15 2006/-kk/
+/keypoint_localization.hpp/1.4/Sun Oct 15 02:16:15 2006/-kk/
+/makefile/1.2/Wed Sep 13 01:20:28 2006/-kk/
+/orientation_assignment.cpp/1.3/Sun Oct 15 02:16:15 2006/-kk/
+/orientation_assignment.hpp/1.3/Sun Oct 15 02:16:15 2006/-kk/
+D
